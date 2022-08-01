@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturaordinaria_v1.2.1.xsl" ?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>0000011</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>02800400125</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>DLLSLL68D55L682M</CodiceFiscale>
+				<Anagrafica>
+					<Nome>Isabella</Nome>
+					<Cognome>Dalla Gasperina</Cognome>
+				</Anagrafica>
+				<RegimeFiscale>RF19</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>via menabrea 21</Indirizzo>
+				<CAP>20159</CAP>
+				<Comune>milano</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Email>isabella.dallagasperina@primo-piano.biz</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03850580964</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03850580964</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>PRIMOPIANO scrl</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via Rabolini 13</Indirizzo>
+				<CAP>20125</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2022-07-22</Data>
+				<Numero>7/001</Numero>
+				<DatiBollo>
+					<BolloVirtuale>SI</BolloVirtuale>
+					<ImportoBollo>2.00</ImportoBollo>
+				</DatiBollo>
+				<DatiCassaPrevidenziale>
+					<TipoCassa>TC14</TipoCassa>
+					<AlCassa>4.00</AlCassa>
+					<ImportoContributoCassa>109.44</ImportoContributoCassa>
+					<ImponibileCassa>2736.00</ImponibileCassa>
+					<AliquotaIVA>0.00</AliquotaIVA>
+					<Natura>N2.2</Natura>
+				</DatiCassaPrevidenziale>
+				<ImportoTotaleDocumento>2845.44</ImportoTotaleDocumento>
+				<Causale>OPERAZIONI SENZA ADDEBITO DI IMPOSTA - REGIME FORFAIT ART.1, C.54-89 L.190/2014</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>Compenso per prestazione professionale per il mese di luglio 2022</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<PrezzoUnitario>2736.00000000</PrezzoUnitario>
+				<PrezzoTotale>2736.00000000</PrezzoTotale>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+				<ImponibileImporto>2845.44</ImponibileImporto>
+				<Imposta>0.00</Imposta>
+				<RiferimentoNormativo>ESCF - OPERAZIONI SENZA ADDEBITO DI IMPOSTA - REGIME FORFAIT ART.1, C.54-89 L.190/2014</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

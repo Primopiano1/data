@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturaordinaria_v1.2.1.xsl" ?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>0000093</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>05032220963</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>LNGMSM72E26F205G</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>LONGONI MASSIMO</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF19</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIALE CORSICA 73</Indirizzo>
+				<CAP>20133</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Email>m_longoni@hotmail.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03850580964</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03850580964</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>PRIMOPIANO SOC. COOP ARL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>via Rabolini 13</Indirizzo>
+				<CAP>20125</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2022-07-28</Data>
+				<Numero>8/001</Numero>
+				<DatiBollo>
+					<BolloVirtuale>SI</BolloVirtuale>
+					<ImportoBollo>2.00</ImportoBollo>
+				</DatiBollo>
+				<DatiCassaPrevidenziale>
+					<TipoCassa>TC14</TipoCassa>
+					<AlCassa>4.00</AlCassa>
+					<ImportoContributoCassa>150.00</ImportoContributoCassa>
+					<ImponibileCassa>3750.00</ImponibileCassa>
+					<AliquotaIVA>0.00</AliquotaIVA>
+					<Natura>N2.2</Natura>
+				</DatiCassaPrevidenziale>
+				<ImportoTotaleDocumento>3900.00</ImportoTotaleDocumento>
+				<Causale>OPERAZIONI SENZA ADDEBITO DI IMPOSTA - REGIME FORFAIT ART.1 C.54-89 L. 190/2014</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>AswArtFor</CodiceTipo>
+					<CodiceValore>1</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>Compenso per i servizi editoriali del mese di luglio 2022</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<PrezzoUnitario>3750.00000000</PrezzoUnitario>
+				<PrezzoTotale>3750.00000000</PrezzoTotale>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+				<ImponibileImporto>3900.00</ImponibileImporto>
+				<Imposta>0.00</Imposta>
+				<RiferimentoNormativo>ESCF - OPERAZIONE SENZA ADDEBITO IMPOSTA ART 1 C54-89 L.190/2014</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>

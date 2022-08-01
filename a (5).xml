@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<q1:FatturaElettronica versione="FPR12" xmlns:q1="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>44</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06460470963</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>CRNSNT70S48G642Z</CodiceFiscale>
+        <Anagrafica>
+          <Nome>Samanta</Nome>
+          <Cognome>Cornaviera</Cognome>
+        </Anagrafica>
+        <RegimeFiscale>RF19</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Lampugnano</Indirizzo>
+        <NumeroCivico>175</NumeroCivico>
+        <CAP>20151</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Telefono>3386232888</Telefono>
+        <Email>abalush@gmail.com</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03850580964</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03850580964</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>PRIMOPIANO SOCIETA' COOPERATIVA</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Corso Sempione </Indirizzo>
+        <NumeroCivico>62</NumeroCivico>
+        <CAP>20124</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2022-07-21</Data>
+        <Numero>FPR 44/22</Numero>
+        <DatiRitenuta>
+          <TipoRitenuta>RT03</TipoRitenuta>
+          <ImportoRitenuta>49.63</ImportoRitenuta>
+          <AliquotaRitenuta>9.19</AliquotaRitenuta>
+          <CausalePagamento>A</CausalePagamento>
+        </DatiRitenuta>
+        <DatiBollo>
+          <BolloVirtuale>SI</BolloVirtuale>
+          <ImportoBollo>2.00</ImportoBollo>
+        </DatiBollo>
+        <ImportoTotaleDocumento>542.00</ImportoTotaleDocumento>
+        <Causale>Operazione non soggetta a ritenuta alla fonte a titolo di acconto ai sensi dell'articolo 1, comma 67, l. n. 190 del 2014 e successive modificazioni</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Spot radio Mediatec</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>140.00</PrezzoUnitario>
+        <PrezzoTotale>140.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>Spot radio Arxivar </Descrizione>
+        <Quantita>2.00</Quantita>
+        <PrezzoUnitario>140.00</PrezzoUnitario>
+        <PrezzoTotale>280.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>Spot radio Fiera Rho</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>120.00</PrezzoUnitario>
+        <PrezzoTotale>120.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>Bollo su fattura esente</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>2.00</PrezzoUnitario>
+        <PrezzoTotale>2.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+        <ImponibileImporto>540.00</ImponibileImporto>
+        <Imposta>0.00</Imposta>
+        <RiferimentoNormativo>Non soggette - altri casi</RiferimentoNormativo>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+        <ImponibileImporto>2.00</ImponibileImporto>
+        <Imposta>0.00</Imposta>
+        <RiferimentoNormativo>Escluso Art. 15 DPR 633/72</RiferimentoNormativo>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2022-07-21</DataScadenzaPagamento>
+        <ImportoPagamento>492.37</ImportoPagamento>
+        <IstitutoFinanziario>Fideuram ISPB </IstitutoFinanziario>
+        <IBAN>IT35B0329601601000067466330</IBAN>
+        <BIC>FIBKITMM</BIC>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</q1:FatturaElettronica>

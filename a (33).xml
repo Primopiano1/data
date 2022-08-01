@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.1.xsl"?>
+<FatturaElettronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>10209790152</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>5</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01680070198</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>SFNSFN90D03E648C</CodiceFiscale>
+        <Anagrafica>
+          <Nome>STEFANO</Nome>
+          <Cognome>SFONDRINI</Cognome>
+        </Anagrafica>
+        <RegimeFiscale>RF19</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA VIA G.VERDI</Indirizzo>
+        <NumeroCivico>7</NumeroCivico>
+        <CAP>27100</CAP>
+        <Comune>Pavia</Comune>
+        <Provincia>PV</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti />
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03850580964</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>PRIMOPRIANO SCRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Corso Monforte</Indirizzo>
+        <NumeroCivico>2</NumeroCivico>
+        <CAP>20122</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2022-07-29</Data>
+        <Numero>24</Numero>
+        <DatiRitenuta>
+          <TipoRitenuta>RT03</TipoRitenuta>
+          <ImportoRitenuta>47.33</ImportoRitenuta>
+          <AliquotaRitenuta>9.19</AliquotaRitenuta>
+          <CausalePagamento>ZO</CausalePagamento>
+        </DatiRitenuta>
+        <DatiBollo>
+          <BolloVirtuale>SI</BolloVirtuale>
+        </DatiBollo>
+        <ImportoTotaleDocumento>517.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Testi Italia Online maggio-giugno-luglio</Descrizione>
+        <PrezzoUnitario>0.00</PrezzoUnitario>
+        <PrezzoTotale>0.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>1 pillola</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>n.d.</UnitaMisura>
+        <PrezzoUnitario>40.00</PrezzoUnitario>
+        <PrezzoTotale>40.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>2 testi</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>n.d.</UnitaMisura>
+        <PrezzoUnitario>50.00</PrezzoUnitario>
+        <PrezzoTotale>100.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>Spot giugno-luglio</Descrizione>
+        <Quantita>5.00</Quantita>
+        <UnitaMisura>n.d.</UnitaMisura>
+        <PrezzoUnitario>75.00</PrezzoUnitario>
+        <PrezzoTotale>375.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+        <Descrizione>Bollo su importi esenti</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>2.00</PrezzoUnitario>
+        <PrezzoTotale>2.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N2.2</Natura>
+        <ImponibileImporto>515.00</ImponibileImporto>
+        <Imposta>0.00</Imposta>
+        <RiferimentoNormativo>Art. 1 c.54-89 190/2014</RiferimentoNormativo>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+        <ImponibileImporto>2.00</ImponibileImporto>
+        <Imposta>0.00</Imposta>
+        <RiferimentoNormativo>Art. 15 del DPR 633/72</RiferimentoNormativo>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2022-07-29</DataScadenzaPagamento>
+        <ImportoPagamento>469.67</ImportoPagamento>
+        <IstitutoFinanziario>INTESA SANPAOLO SPA</IstitutoFinanziario>
+        <IBAN>IT28P0306911336100000001426</IBAN>
+        <ABI>03069</ABI>
+        <CAB>11336</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

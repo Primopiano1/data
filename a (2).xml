@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>000020n3nl</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>09317660968</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>09317660968</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>Foorban S.r.l.</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Francesco De Sanctis 71</Indirizzo>
+                <CAP>20141</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>03850580964</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>03850580964</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>PRIMOPIANO SOCIETA' COOPERATIVA</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>CORSO MONFORTE, 2</Indirizzo>
+                <CAP>20122</CAP>
+                <Comune>MILANO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2022-07-16</Data>
+                <Numero>830</Numero>
+                <ImportoTotaleDocumento>242.78</ImportoTotaleDocumento>
+                <Causale>Foorban Fridge</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Foorban Fridge - Servizio Corporate mese di giugno</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>199.00</PrezzoUnitario>
+                <PrezzoTotale>199.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>199.00</ImponibileImporto>
+                <Imposta>43.78</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>Foorban srl</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2022-08-16</DataScadenzaPagamento>
+                <ImportoPagamento>242.78</ImportoPagamento>
+                <IstitutoFinanziario>Intesa San Paolo</IstitutoFinanziario>
+                <IBAN>IT02W0306909441100000012952</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-4417ff59f88d6952a8b3e967e1c08232"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kY5BfTLfqjU09j5H9fTSEvXKDx9OBYnjNnGrqH9n7Yg=</ds:DigestValue></ds:Reference><ds:Reference URI="#keyinfo-id-4417ff59f88d6952a8b3e967e1c08232"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Q8LmpHhG812Ro9r+YMHdW76E8HUb9uwSZa102IvdLKk=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-4417ff59f88d6952a8b3e967e1c08232"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>eNpUQ3l4B4TSoBfF5PZbEbp7KZfm1IjdofI0CaDqrXM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-4417ff59f88d6952a8b3e967e1c08232">EsJCkiPVAWvKw1ihfB9/S0rAKRkbVP1vWOJRz2YHqn1g9dFI+/FW4TI8gcmX0UrW44YK0McFNx1zDrthlm1dTWTWdHW2MPoTUDyJItjE3emu6QsB73hd/AePZE8Agj6YXpIUEoQdT0ilD5rcKHkuSGoS3AAF6ysHVc9khwC8Px4jJJmEwcPUPY4XymB87W2eI17TxqaC6XAbpf9dNsByxlOusjaCNJunp7mojHByZIOCoTLh4PAG5QCY+jlnKrVuhm5WGs9Cq7Kw9vN4G301miVLn+cZ7dyyxmzVnYIw6gk8ftFAz78XVk8nqDwO++49uwyRYBoJ5tjaPlqHqlaVRA==</ds:SignatureValue><ds:KeyInfo Id="keyinfo-id-4417ff59f88d6952a8b3e967e1c08232"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-4417ff59f88d6952a8b3e967e1c08232"><xades:SignedProperties Id="xades-id-4417ff59f88d6952a8b3e967e1c08232"><xades:SignedSignatureProperties><xades:SigningTime>2022-07-16T16:53:56Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>DZb1YaWUUh9f1Tq9jggdz5mx9CO4QjDWxSaTvXiaJ34=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGOMIGBpH8wfTELMAkGA1UEBhMCSVQxJDAiBgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhAgh4lY8MAd7IeQ==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:FatturaElettronica>
